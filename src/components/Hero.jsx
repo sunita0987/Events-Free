@@ -23,14 +23,17 @@ function Hero() {
           <button className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white px-6 py-2 rounded-full  font-poppins text-semibold">
             Get Started
           </button>
-          <a href="#" className="text-white hover:bg-blue-600 rounded-full px-6 py-2 text-semibold font-poppins">
+          <a
+            href="#"
+            className="text-white hover:bg-blue-600 rounded-full px-6 py-2 text-semibold font-poppins"
+          >
             Learn more
           </a>
         </div>
 
         {/* Search Inputs */}
         <div className="mt-10 bg-blue-600 rounded-full p-4 flex items-center justify-around shadow-lg text-white max-w-3xl mx-auto">
-          <div className="flex flex-col items-center font-poppins text-medium" >
+          <div className="flex flex-col items-center font-poppins text-medium">
             <span className="text-sm">Location</span>
             <input
               type="text"

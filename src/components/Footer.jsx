@@ -52,7 +52,7 @@ function Footer() {
           <h3 className="font-bold text-sm mb-2">GALLERY</h3>
           <div className="grid grid-cols-3 gap-2">
             <img
-              src="./assets/images/footer1.png"
+              src="public/assets/images/footer1.png"
               className="w-20 h-12 object-cover"
             />
             <img
