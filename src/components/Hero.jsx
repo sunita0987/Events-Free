@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <section
-      className="relative bg-cover bg-center min-h-[80vh] flex items-center justify-center px-6"
+      className="relative bg-cover bg-center min-h-[100vh] flex items-center justify-center px-20"
       style={{ backgroundImage: "url('/assets/hero.png')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>

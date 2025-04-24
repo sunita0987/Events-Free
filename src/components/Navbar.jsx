@@ -5,9 +5,9 @@ function Navbar() {
     <nav className="flex justify-between items-center px-6 py-4 bg-black">
       <div className="flex items-center space-x-2">
         <img src="/assets/images/logo.png" alt="logo" className="w-8 h-8" />
-        <span className="text-xl font-bold text-blue-500">Events<span className="text-indigo-200">Free</span></span>
+        <span className="text-xl font-bold text-blue-500">Events<span className="text-cyan-300">Free</span></span>
       </div>
-      <ul className="flex space-x-6 text-sm uppercase text-white font-semibold ">
+      <ul className="flex space-x-10 text-sm uppercase text-white font-Regular">
         <li><a href="#">Home</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Feed</a></li>
