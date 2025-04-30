@@ -31,7 +31,7 @@ function Hero() {
           </a>
         </div>
 
-        {/* Search Inputs */}
+        {}
         <div className="mt-10 bg-blue-600 rounded-full p-4 flex items-center justify-around shadow-lg text-white max-w-3xl mx-auto">
           <div className="flex flex-col items-center font-poppins text-medium">
             <span className="text-sm">Location</span>

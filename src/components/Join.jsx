@@ -3,25 +3,10 @@ import React from "react";
 function Join() {
   return (
     <div className="min-h-screen bg-white flex items-center justify-center px-6 py-16">
-      <div className="max-w-6xl w-full flex flex-col md:flex-row gap-10 items-center">
-        {/* Decorative Left Side Image */}
-        <div className="flex flex-col gap-4 items-center justify-center">
-          <div className="flex gap-6 ">
-            {[1, 2, 3].map((_, i) => (
-              <div
-                key={i}
-                className="w-16 h-64 rounded-full overflow-hidden"
-                style={{
-                  backgroundImage: "url('public/assets/join.png')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></div>
-            ))}
-          </div>
-        </div>
+      <div className="max-w-2xl w-full flex flex-col md:flex-row gap-10 items-center">
+        {}
 
-        {/* Form Section */}
+        {}
         <div className="flex-1 max-w-xl">
           <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-cyan-400 mb-4"></div>
           <h2 className="text-3xl font-bold">Join Us !</h2>

@@ -3,12 +3,12 @@ function StatsSection() {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat text-white py-20 px-4"
-      style={{ backgroundImage: "url('public/assets/3rdsection.png')" }}
+      style={{ backgroundImage: "url('./assets/3rdsection.png')" }}
     >
-      {/* Overlay */}
+      {}
       <div className="absolute inset-0 bg-blue-700 opacity-80"></div>
 
-      {/* Content */}
+      {}
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
           Lorem ipsum dolor sit amet,

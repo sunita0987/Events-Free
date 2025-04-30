@@ -7,7 +7,7 @@ const events = [
     title: "Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in",
-    imgSrc: "public/assets/4thsection.png",
+    imgSrc: "./assets/4thsection.png",
   },
   {
     id: 2,
@@ -15,15 +15,15 @@ const events = [
     title: "Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in",
-    imgSrc: "public/assets/event.png",
+    imgSrc: "./assets/event.png",
   },
 ];
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white px-3 py-16">
+    <div className="min-h-[40vh] bg-white px-3 py-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 items-start">
-        {/* Left Text Section */}
+        {}
         <div className="md:w-1/3">
           <div className="h-1 w-20 bg-blue-500 mb-4"></div>
           <h2 className="text-3xl font-bold">
@@ -35,13 +35,13 @@ export default function App() {
             efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem.
             Donec ut justo et leo congue lacinia vitae nec arcu.
           </p>
-          <button className="mt-6 text-xs font-bold text-black hover:underline">
+          <button className="mt-6 text-xs font-bold text-black hover:underline cursor-pointer">
             LEARN MORE
           </button>
         </div>
 
-        {/* Event Cards */}
-        <div className="md:w-2/3 grid md:grid-cols-2 gap-6">
+        {}
+        <div className="md:w-2/3 grid md:grid-cols-3 gap-6">
           {events.map((event) => (
             <div
               key={event.id}

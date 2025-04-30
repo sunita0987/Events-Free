@@ -3,11 +3,11 @@ function Footer() {
   return (
     <footer className="bg-black text-white py-10 px-4 md:px-20">
       <div className="flex flex-col md:flex-row justify-between gap-10">
-        {/* Logo and About */}
+        {}
         <div className="flex flex-col gap-4 max-w-xs">
           <div className="flex items-center gap-2">
             <img
-              src="public/assets/images/logo.png"
+              src="/assets/images/logo.png"
               alt="Logo"
               className="w-8 h-8"
             />
@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Links Section */}
+        {}
         <div className="flex gap-16">
           <div>
             <h3 className="font-bold text-sm mb-2">SERVICES</h3>
@@ -47,32 +47,32 @@ function Footer() {
           </div>
         </div>
 
-        {/* Gallery */}
+        {}
         <div>
           <h3 className="font-bold text-sm mb-2">GALLERY</h3>
           <div className="grid grid-cols-3 gap-2">
             <img
-              src="public/assets/images/footer1.png"
+              src="./assets/images/footer1.png"
               className="w-20 h-12 object-cover"
             />
             <img
-              src="public/assets/images/footer2.png"
+              src="./assets/images/footer2.png"
               className="w-20 h-12 object-cover"
             />
             <img
-              src="public/assets/images/footer3.png"
+              src="./assets/images/footer3.png"
               className="w-20 h-12 object-cover"
             />
             <img
-              src="public/assets/images/footer4.png"
+              src="./assets/images/footer4.png"
               className="w-20 h-12 object-cover"
             />
             <img
-              src="public/assets/images/footer5.png"
+              src="./assets/images/footer5.png"
               className="w-20 h-12 object-cover"
             />
             <img
-              src="public/assets/images/footer6.png"
+              src="./assets/images/footer6.png"
               className="w-20 h-12 object-cover"
             />
           </div>
